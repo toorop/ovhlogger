@@ -1,7 +1,7 @@
 # ovhlogger
 pipe STDIN to OVH Logs Data Platform 
 
-``` echo "Hello ovh log" | ovhlog```
+``` echo "Hello ovh log" | ovhlogger```
 
 ## How to use it
 
@@ -11,7 +11,7 @@ Download the appropriate binary for your platform, from [releases](https://githu
 
 ### rename it
 
-``` mv ovhlog_version_platform ovhlog```
+``` mv ovhlog_version_platform ovhlogger```
  
 ### set environment variables
 
@@ -38,7 +38,7 @@ export OVHLOGGER_TOKEN=af97a14a-010b-4ce9-9e5a-dsfdsfsd
 ovhlogger will read from STDIN, push each line to OVH logs platform and write it to STDOUT
 
 ```bash
-$ echo "hello ovh logs" | ovhlog
+$ echo "hello ovh logs" | ovhlogger
 hello ovh log
 ``` 
 
